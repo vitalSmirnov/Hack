@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#B3FFFFFF"/>
+
+        </shape>
+        <animation-list
+            android:propertyName="translationZ"
+            android:startDelay="80"
+            android:valueTo="4dp"
+            android:valueType="floatType"/>
+    </item>
+</selector>
